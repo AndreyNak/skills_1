@@ -1,0 +1,147 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .head-soft {
+    display: none;
+  }
+
+  .head-hard {
+    display: none;
+  }
+
+  .skills {
+    margin-top: 30px;
+  }
+}
+
+.hard-skills {
+  display: flex;
+}
+
+.skill__backend {
+  margin-left: auto;
+  border-left: 3px solid #000;
+  width: 418px;
+  background-color: #ea7387;
+}
+
+.head-hard {
+  overflow: hidden;
+  border: 4px solid #000;
+  border-radius: 0 100% 0 0;
+  height: auto;
+  min-width: 416px;
+  background-color: #f7d7dc;
+}
+
+.soft-skills {
+  display: flex;
+}
+
+.head-soft {
+  overflow: hidden;
+  border: 4px solid #000;
+  border-radius: 0 0 100%;
+  width: 416px;
+  height: auto;
+  background-color: #d7f5f7;
+}
+
+.skill {
+  display: flex;
+  margin-top: 5px;
+  border: 3px solid #000;
+  width: 500px;
+  height: 30px;
+  background-color: #b7cccc;
+}
+
+.text {
+  text-align: right;
+}
+
+.left {
+  width: 55%;
+}
+
+.skills__right {
+  align-items: right;
+  border-left: 3px solid #000;
+  width: 70%;
+}
+
+.skills__right_red {
+  background-color: #ea7387;
+}
+
+.skills__beckend {
+  width: 50%;
+}
+
+.skills__algorithm {
+  width: 70%;
+}
+
+.skills__frontend {
+  width: 65%;
+}
+
+.skills__disign {
+  width: 60%;
+}
+
+.skills__math {
+  width: 60%;
+}
+
+.skills__eng {
+  width: 60%;
+}
+
+.skills__right_blue {
+  background-color: #73e2ea;
+}
+
+.skills__emotional-intellect {
+  width: 70%;
+}
+
+.skills__communication {
+  width: 70%;
+}
+
+.skills__team-work {
+  width: 45%;
+}
+
+.skills__critical-thinking {
+  width: 50%;
+}
+
+.customer-focus {
+  width: 50%;
+}
+
+.head_text {
+  margin-top: 20%;
+  text-align: center;
+}
